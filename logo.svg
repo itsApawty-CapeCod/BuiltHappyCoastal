@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" role="img" aria-label="Built Happy Coastal sailboat">
+  <polygon points="62,6 62,68 100,68" fill="#1F3347"/>
+  <polygon points="55,16 55,68 22,68" fill="#1F3347" opacity="0.82"/>
+  <path d="M12 75 H108 L94 93 H27 Z" fill="#1F3347"/>
+  <rect x="58" y="4" width="2.5" height="72" fill="#1F3347"/>
+</svg>

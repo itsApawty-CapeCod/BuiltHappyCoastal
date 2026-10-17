@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Built Happy Coastal</title>
+<meta name="description" content="Contact Built Happy Coastal about furniture or renovation work on Cape Cod.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="">Built Happy Coastal</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="furniture.html">Furniture</a></li>
+        <li><a href="services.html">Renovation</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section>
+  <div class="wrap">
+    <h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">Contact</h1>
+    <p class="lede">Ask about a piece, a delivery, or a project. We read every message.</p>
+    <form id="contact-form">
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+      <label>What is this about?
+        <select name="topic">
+          <option>Furniture</option>
+          <option>Renovation or carpentry</option>
+          <option>Something else</option>
+        </select>
+      </label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <div><button class="btn" type="submit">Send message</button></div>
+      <p class="muted">This opens your email app with the message filled in. You can also write to <a href="mailto:info@builthappycoastal.com">info@builthappycoastal.com</a> or message us on <a href="https://www.instagram.com/builthappycoastal">Instagram</a>.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <p><strong>Built Happy Coastal</strong></p>
+      <p>Marstons Mills, Cape Cod, Massachusetts</p>
+    </div>
+    <div>
+      <p><a href="mailto:info@builthappycoastal.com">info@builthappycoastal.com</a></p>
+      <p><a href="https://www.instagram.com/builthappycoastal">@builthappycoastal on Instagram</a></p>
+    </div>
+  </div>
+</footer>
+<script src="assets/pieces.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
